@@ -1,0 +1,4 @@
+install node:13-alpine
+Run mkdir /home/app
+copy ./home/app
+CMD ['node','server.js']
